@@ -7,8 +7,8 @@ function LandingPage() {
   return (
     <>
       <Banner />
-      <Body/>
-      <Footer/>
+      <Body />
+      <Footer />
     </>
   );
 }

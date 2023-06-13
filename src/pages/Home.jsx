@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Main from "../components/Main";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className="bg-black">
+      <Main />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

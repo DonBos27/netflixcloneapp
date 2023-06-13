@@ -4,7 +4,7 @@ import Poster from "../images/netflixBgImg.jpg";
 function Banner() {
   return (
     <div>
-      <div className="w-full h-[750px] text-white ">
+      <div className="w-full h-[750px] text-white pt-[120px]">
         <div className="w-full h-full rounded-lg">
           <img
             src={Poster}
