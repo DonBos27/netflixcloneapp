@@ -1,12 +1,17 @@
 import React from 'react'
 import NetflixLogo from '../images/netflixLogo.png'
+import { useNavigate } from 'react-router-dom'
 
 function Navabar() {
+  const navigate = useNavigate()
+  const signIn = () => {
+    navigate('/home') 
+  }
   return (
     <div className='flex items-center justify-between p-4 z-[100] w-full absolute'>
         <img src={NetflixLogo} alt="" className='w-[250px] h-full pl-7'/>
         <div>
-            <button className='bg-red-600 text-white text-xl font-bold px-7 py-2 mr-[65px] rounded cursor-pointer'>Sign In</button>
+            <button className='bg-red-600 text-white text-xl font-bold px-7 py-2 mr-[65px] rounded cursor-pointer' onClick={signIn}>Sign In</button>
         </div>
     </div>
   )

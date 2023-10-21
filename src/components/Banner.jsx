@@ -2,6 +2,7 @@ import React from "react";
 import Poster from "../images/netflixBgImg.jpg";
 
 function Banner() {
+  
   return (
     <div>
       <div className="w-full h-[750px] text-white pt-[120px]">
@@ -9,7 +10,7 @@ function Banner() {
           <img
             src={Poster}
             alt=""
-            className="w-full h-full object-cover px-[75px] opacity-30 "
+            className="w-full h-full object-cover px-[75px] opacity-30 rounded-t-lg "
           />
           <div className="absolute w-full h-full top-[25%] md:p-8 ">
             <h1 className="text-8xl font-bold mb-8 w-[75%] px-[175px]">
