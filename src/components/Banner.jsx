@@ -11,7 +11,7 @@ function Banner() {
             alt=""
             className="w-full h-[100%] lg:h-full object-cover lg:px-[75px] px-4 opacity-30 rounded-t-lg "
           />
-          <div className="absolute w-full h-full top-[25%] md:p-8 ">
+          <div className="absolute w-full h-full lg:top-[25%] top-[38%] md:p-8 ">
             <h1 className="lg:text-8xl font-bold lg:mb-8 lg:w-[75%] lg:px-[175px] lg:text-left mb-4 text-center text-4xl">
               Unlimited movies, TV shows, and more.
             </h1>

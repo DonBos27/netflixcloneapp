@@ -8,7 +8,7 @@ function LandingPage() {
     <div className="bg-[#07021a]">
       <Banner />
       <Body />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

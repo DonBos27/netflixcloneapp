@@ -8,8 +8,8 @@ function Body() {
   return (
     <div>
       <div className="w-full h-full text-white my-7">
-        <div className="absolute w-full h-[550px]  bg-gradient-to-b from-[#07021a] "></div>
-        <div className="w-[92%] h-full bg-[#130837] rounded-3xl mx-auto">
+        <div className="absolute w-full h-[550px]  bg-gradient-to-b from-[#07021a] hidden md:block"></div>
+        <div className="w-[92%] h-full bg-[#130837] rounded-b-3xl mx-auto">
           <div className="flex flex-row items-center justify-around lg:pt-[100px] pt-20">
             <div className="flex-col">
               <h1 className="text-5xl sm:text-6xl font-bold mb-8 lg:pl-[175px] text-center lg:text-left ">
