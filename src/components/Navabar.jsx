@@ -19,7 +19,7 @@ function Navabar() {
       <div>
         {/* Adjusting the button's size based on screen size */}
         <button
-          className="text-sm md:text-base lg:text-xl bg-red-600 text-white font-bold px-4 md:px-5 lg:px-7 py-1 md:py-2 rounded cursor-pointer mr-4 md:mr-5 lg:mr-[65px]"
+          className="text-sm md:text-base lg:text-xl bg-red-600 text-white font-bold px-4 md:px-5 lg:px-7 py-1 md:py-2 rounded cursor-pointer mr-3 md:mr-5 lg:mr-[65px]"
           onClick={signIn}
         >
           Sign In
