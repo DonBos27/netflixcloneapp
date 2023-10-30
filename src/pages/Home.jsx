@@ -3,7 +3,7 @@ import Main from "../components/Main";
 
 function Home() {
   return (
-    <div className="bg-black">
+    <div className="h-full">
       <Main />
     </div>
   );

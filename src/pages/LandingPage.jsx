@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 function LandingPage() {
   return (
-    <div className="bg-[#07021a] ">
+    <div className="bg-[#07021a]">
       <Banner />
       <Body />
       <Footer />
